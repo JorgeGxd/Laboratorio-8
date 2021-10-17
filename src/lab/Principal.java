@@ -723,7 +723,7 @@ public class Principal extends javax.swing.JFrame {
           f2.delete();
           f1.renameTo(f2);
           clearInput();
-            showMessageDialog(null, "Eliminado Correctamente!");
+            showMessageDialog(null, "Modificado Correctamente!");
           
         } catch (FileNotFoundException e) {
           System.out.println("An error occurred.");
